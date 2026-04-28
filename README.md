@@ -1,29 +1,49 @@
-# movie-d2k
+# test-fe-dreamaxtion
 
-This template should help get you started developing with Vue 3 in Vite.
+Rumah Ensik adalah platform berbasis web yang dikembangkan menggunakan Vue.js untuk menyajikan informasi perfilman secara interaktif, responsif, dan modern. Project ini dirancang dengan fokus pada pengalaman pengguna (UX) yang optimal serta antarmuka (UI) yang bersih.
 
-## Recommended IDE Setup
+## Instalasi
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Antarmuka Responsif: Dioptimalkan untuk perangkat mobile, tablet, dan desktop.
+- Performa Tinggi: Dibangun di atas Vue 3 dan Vite untuk pemuatan halaman yang instan.
+- Navigasi Dinamis: Menggunakan Vue Router untuk transisi antar halaman yang mulus.
+- Manajemen Data: Arsitektur kode yang modular dan mudah untuk dikembangkan lebih lanjut.
 
-## Customize configuration
+## Teknologi yang Digunakan
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Framework: Vue.js 3
+- Build Tool: Vite
+- Routing: Vue Router
+- Styling: CSS3 / Tailwind CSS (Opsional)
+- Deployment: Vercel
 
-## Project Setup
+# Memulai Project
+Ikuti langkah-langkah di bawah ini untuk menjalankan project ini di komputer lokal kamu:
 
-```sh
-npm install
-```
+## Prasyarat
+Pastikan kamu sudah menginstal Node.js (versi 16 atau yang terbaru).
 
-### Compile and Hot-Reload for Development
+1. **Clone Repositori:**
 
-```sh
+    ```bash
+    git clone https://github.com/admnsonn/test-fe-dreamaxtion.git
+    ```
+
+2. **Masuk ke Direktori Proyek:**
+
+    ```bash
+    cd movie-d2k
+    ```
+
+3. **Instal Dependensi:**
+
+    ```bash
+    npm install
+    ```
+
+## Menjalankan Aplikasi
+
+Gunakan perintah berikut untuk menjalankan aplikasi dalam mode pengembangan:
+
+```bash
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
