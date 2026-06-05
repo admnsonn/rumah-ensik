@@ -1,7 +1,16 @@
 @tailwind base;
 @tailwind components;
-@tailwindities;
+@tailwind utilities;
 
 html {
-    @apply text-white bg-neutral-900 overflow-x-hidden;
+  @apply text-white bg-neutral-900 overflow-x-hidden;
+}
+
+body {
+  margin: 0;
+  @apply bg-neutral-900;
+}
+
+#app {
+  min-height: 100vh;
 }
